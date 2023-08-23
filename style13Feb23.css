@@ -1,6 +1,7 @@
 /* outline
 offset */
-
+/*Whats the difference between border and outline?
+You can use the outline-offset to move out further from the content*/
 .buttons{
   margin:3rem;
 }
@@ -23,6 +24,7 @@ a{
   outline-style: solid;
   outline-color: black;
   outline: 0.2rem solid black;
+/*   the first outline offset will be overridden by the second code */
   outline-offset: 10px ;
   outline-offset: -10px;
 }
